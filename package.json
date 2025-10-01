@@ -1,0 +1,21 @@
+{
+  "name": "backend_project",
+  "version": "1.0.0",
+  "description": "A professional Backend Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "javascript,backend,Hitesh Sir"
+  },
+  "keywords": [
+    "javascript",
+    "backend",
+    "Hitesh",
+    "Sir"
+  ],
+  "author": "Vivek Dwiwedi",
+  "license": "ISC"
+}
