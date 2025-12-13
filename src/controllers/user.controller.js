@@ -88,7 +88,7 @@ const user = await User.create({
     throw new ApiError(500,"Something went wrong while registering the User")
   }
    return res.status(201).json(
-      new ApiResponse(200,createdUser,"User regu=istered Successfully")
+      new ApiResponse(200,createdUser,"User registered Successfully")
     )
 } )
 

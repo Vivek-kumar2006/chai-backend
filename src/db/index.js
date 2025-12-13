@@ -5,9 +5,9 @@ import { DB_NAME } from "../constants.js";
       try {
     const connectionInstance=await mongoose.connect(`${process.env.MONGODB_URI}/${DB_NAME}`)
       console.log(`\n MongoDB connected !! DB HOST: ${connectionInstance.connection.host}`);
-       
+      } 
       
-      } catch (error) {
+      catch (error) {
         console.log("MongoDB connection Failed: ",error);
         process.exit(1)
       }
