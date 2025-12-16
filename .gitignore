@@ -118,3 +118,9 @@ dist
 .pnp.*
 
 # End of https://mrkandreev.name/snippets/gitignore-generator/#Node
+
+# Ignore everything inside public/temp
+public/temp/*
+
+# But DO NOT ignore the .gitkeep file (so the folder stays)
+!public/temp/.gitkeep
